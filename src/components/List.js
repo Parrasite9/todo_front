@@ -33,12 +33,12 @@ const List = ({todos, setTodos, setEditTodo}) => {
                     </button>
 
                     {/* EDIT ITEM BUTTON  */}                    
-                    <button className='button-complete task-button' onClick={() => handleEdit(todo)}>
+                    <button className='button-edit task-button' onClick={() => handleEdit(todo)}>
                         <i className='fa fa-edit'></i>
                     </button>
 
                     {/* DELETE ITEM BUTTON  */}
-                    <button className='button-complete task-button' onClick={() => handleDelete(todo)}>
+                    <button className='button-delete task-button' onClick={() => handleDelete(todo)}>
                         <i className='fa fa-trash'></i>
                     </button>
                 </>

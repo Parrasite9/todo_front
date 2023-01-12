@@ -14,15 +14,6 @@ const App = () => {
   const [todos, setTodos] = useState(initialState)
   const [editTodo, setEditTodo] = useState(null)
 
-
-  // READ
-
-  // CREATE
-
-  // UPDATE
-
-  // DELETE
-
   useEffect(() => {
     localStorage.setItem('todos', JSON.stringify(todos))
   }, [todos])
